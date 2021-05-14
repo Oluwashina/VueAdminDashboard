@@ -57,7 +57,10 @@
       </div>
       <div class="col-lg-6 d-none d-md-block">
           <div>
-              <img  src="../assets/woman.png" class="img-fluid" alt="woman" />
+              <img  src="../assets/woman.png"
+               style="width: calc(100vw - 385px);
+                  height: 100%;"
+               class="img-fluid" alt="woman" />
           </div>
       </div>
   </div>
@@ -107,7 +110,7 @@ export default {
                             "password": this.password
                         }
                       console.log(user)
-                       this.$router.push('/dashboard')
+                       this.$router.push('/app/dashboard')
                        this.signOK = false
                       
                  } 
