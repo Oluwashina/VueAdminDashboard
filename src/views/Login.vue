@@ -110,7 +110,7 @@ export default {
                             "password": this.password
                         }
                       console.log(user)
-                       this.$router.push('/app/dashboard')
+                       this.$router.push('/dashboard')
                        this.signOK = false
                       
                  } 
